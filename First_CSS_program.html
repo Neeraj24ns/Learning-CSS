@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First CSS Program</title>
+    <link rel="icon" type="image/png" sizes="32*32" href="E:/FILE/neeraj.jpg">
+<style>
+    body {
+        background-color: #55a2f0;
+        font-family : Arial, Helvetica, sans-serif;
+    }
+    h1 {
+        color : rgb(223, 108, 1);
+        text-align: center;
+    }
+
+    .card {
+        width : 300px;
+        margin : 20px auto;
+        padding : 20px;
+        background : white;
+        border-radius :10px;
+        box-shadow : 0 5px 10px gray;
+
+
+    }
+
+    button {
+         background : green;
+         color : white;
+         padding : 10px;
+         cursor: pointer;
+         transition: 0.5s;
+         position: relative;
+         left: 50%;
+         transform: translateX(-50%);
+
+
+    }
+    button:hover {
+        background : darkgreen;
+    }
+</style>
+</head>
+<body>
+    <h1>CSS Example</h1>
+    <div class="card">
+    <p>this is a styled card.</p>
+    <button>Click Me</button>
+    </div>
+</body>
+</html>
