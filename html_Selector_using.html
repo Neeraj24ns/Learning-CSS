@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>program css using selectors </title>
+    <link rel="icon" type="image/png" sizes="32*32" href="E:/FILE/neeraj.jpg">
+    <style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header {
+    background-color: #222;
+    color: white;
+    padding: 15px;
+    text-align:center;
+}
+ 
+ h2 {
+  
+    margin-top: 20px;
+ }
+
+ .text-primary {
+     color: #007bff;
+ }
+
+ .product-card p {
+    color: #555;
+ }
+ nav > ul > li {
+    padding: 10px 20px;
+    color: rgb(29, 3, 3);
+ }
+ h2 + p {
+    font-weight: bold;;
+ }
+ h2 ~ p {
+    margin-bottom: 10px;
+ }
+ input[type="text"] {
+    padding: 5px;
+    border:1px soilid #ccc;
+ }
+input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+a[href^=https] {
+    color: green;
+}
+a[href$="pdf"] {
+    color: red;
+}
+a[href*"product"] {
+    text-decoration: underline;
+}
+.product-card {
+    padding: 10px;
+    margin: 20px;
+    border: 1px solid #ccc;
+}
+button {
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+ </style>
+</head>
+<body>
+    <div id="header">
+        My Online Store
+    </div>
+ 
+    <nav>
+        <ul>
+            <li>
+                Home
+            </li>
+            <li>Products</li>
+            <li>
+                Contact
+        </ul>
+    </nav>
+    
+    <div class="product-card">
+        <p>best quality produt for daily use.</p>
+        <p>waterproof and long lasing</p>
+        <button>Buy Now</button>
+
+        <br>
+        <br>
+
+        
+        
+        <a href="https://example.com/product">View Product Online</a>
+    <br>
+    <a href="manunal.pdf">Downaload Mannual(pdf)</a>
+
+    <br>
+    <br>
+    <form>
+        <label>Enter your Name</label>
+        <input type="text" placeholder="Your Name">
+    </form>
+    </div>
+</body>
+</html>
