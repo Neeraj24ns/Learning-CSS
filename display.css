@@ -1,0 +1,52 @@
+.display-block {
+    display: block;
+    background: lightblue;
+    margin: 10px;
+    padding: 10px;
+}
+
+.display-inline {
+    display: inline;
+    background: yellow;
+    padding: 5px;
+}
+
+.box {
+    width: 80px;
+    height: 80px;
+    background: orange;
+    text-align: center;
+    line-height: 100px;
+    margin: 10px;
+}
+
+.display-inline-block {
+    display: inline-block;
+}
+
+.display-flex {
+    display:flex;
+    gap: 20px;
+    background: #49a2cc;
+    padding: 10px;
+}
+
+.display-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    background: #e9792f;
+    padding: 10px;
+}
+
+
+.grid-box div {
+    background: lightgreen;
+    padding: 20px;
+}
+
+.visibility-hidden {
+    visibility: hidden;
+}
+
+
