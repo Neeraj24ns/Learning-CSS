@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce UI Position Elements</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="E:/FILE/neeraj.jpg">
+    <link rel="stylesheet" href="Position_example.css">
+</head>
+<body>
+    <div class="navbar">
+        My Shop
+    </div>   
+
+    <div class="container">
+        <div class="card">
+            <img src="https://www.electromart.com.gh/wp-content/uploads/2025/10/3-1.jpg">
+            <h3>Product Name</h3>
+            <p>10000 /-</p>
+            <span class="badge">Sale</span>
+            <button class="showModal()">View</button>
+
+        </div>
+
+        <div class="modal" id="modal">
+            <div class="modal-box">
+                <span class="close" onclick="hideModal()">X</span>
+                <h2>Product details</h2>
+                <p>this is a product information</p>
+            </div>
+        </div>
+
+        <button class="chat-btn">chat</button>
+
+        <script>
+            function showModal(){
+                document.getElementById("modal").style.display = "block";
+            }
+            function hideModal(){
+                document.getElementById("modal").style.display ="none";
+            }
+        </script>
+
+    </div>    
+
+
+
+</body>
+</html>
