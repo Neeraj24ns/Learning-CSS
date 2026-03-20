@@ -1,0 +1,50 @@
+a:link {
+    color: blue;
+}
+a:visited {
+    color: purple;
+}
+a:hover {
+    color: red;
+}
+a:active {
+    color: green;
+}
+
+input:focus {
+    border: 2px soilid blue;
+}
+input:disabled {
+    opacity: 0.5;
+}
+input:checked {
+    accent-color: green;
+}
+li:first-child {
+    font-weight: bold;
+}
+li:last-child {
+    border-bottom: none;
+}
+li:nth-child(even) {
+    background: #eee;
+}
+li:nth-child(3n) {
+    color: blue;
+}
+
+p:first-of-type{
+    font-size: 20px;
+}
+p:last-of-type{
+    margin-bottom: 0;
+}
+p:not(.excluded){
+    color: rgb(27, 2, 56);
+}
+div:empty{
+    display:none;
+}
+:target {
+    background: yellow;
+}
