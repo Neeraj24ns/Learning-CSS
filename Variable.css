@@ -1,0 +1,22 @@
+:root {
+    --primary-color: #7adaeb;
+    --secondary-color: #cfee44;
+    --spacing: 10px;
+    --font-size: 16px;
+    --radius: 8px;
+
+}
+.button {
+    background : var(--primary-color);
+    color:aliceblue;
+    padding: var(--spacing);
+    border-radius: var(--radiu);
+}
+.card {
+    border : 1px solid var(--secondary-color);
+    padding: var(--spacing);
+    border-radius: var(--radius);
+}
+.text {
+    color: var(--secondary-color);
+}
